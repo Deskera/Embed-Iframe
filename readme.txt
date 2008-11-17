@@ -13,7 +13,7 @@ Embed Iframe is a plugin that will let you embed iframe - an HTML tag that allow
 
 == Installation ==
 
-1. Download EmbedIframe plugin
+1. Download [EmbedIframe plugin](http://downloads.wordpress.org/plugin/embed-iframe.zip)
 1. Unzip
 1. Copy to your '/wp-content/plugins' directory
 1. Activate plugin
@@ -23,6 +23,9 @@ You can find full details of installing a plugin on the [plugin installation pag
 == Usage ==
 
 Use following tag to insert another page in post using iframe
+
 `[iframe url width height]`
+
 e.g. 
+
 `[iframe http://example.com 400 500]`
