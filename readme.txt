@@ -1,6 +1,6 @@
 === Embed Iframe ===
 Contributors: brajesh
-Tags: iframe, embed
+Tags: iframe, embed, page, post
 Requires at least: 1.3
 Tested up to: 2.6
 Stable tag: trunk
