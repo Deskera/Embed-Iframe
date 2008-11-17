@@ -1,6 +1,6 @@
 === Embed Iframe ===
 Contributors: brajesh
-Tags: iframe, embed, page, post
+Tags: iframe, embed, page, post, plugin
 Requires at least: 1.3
 Tested up to: 2.6
 Stable tag: trunk
@@ -26,6 +26,6 @@ Use following tag to insert another page in post using iframe
 
 `[iframe url width height]`
 
-e.g. 
 
+e.g.
 `[iframe http://example.com 400 500]`
