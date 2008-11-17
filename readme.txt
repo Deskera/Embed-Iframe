@@ -26,6 +26,6 @@ Use following tag to insert another page in post using iframe
 
 `[iframe url width height]`
 
-
 e.g.
+
 `[iframe http://example.com 400 500]`
