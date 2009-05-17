@@ -2,7 +2,7 @@
 Contributors: brajesh
 Tags: iframe, embed, page, post, plugin
 Requires at least: 1.3
-Tested up to: 2.6
+Tested up to: 2.8
 Stable tag: trunk
 
 Allows the insertion of code to display an external webpage within an iframe.
