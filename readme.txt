@@ -18,7 +18,7 @@ Embed Iframe is a plugin that will let you embed iframe - an HTML tag that allow
 1. Copy to your '/wp-content/plugins' directory
 1. Activate plugin
 
-You can find full details of installing a plugin on the [plugin installation page](http://codex.wordpress.org/Managing_Plugins)
+You can find full details of installing a plugin on the [plugin installation page](https://wordpress.org/support/article/managing-plugins/)
 
 == Usage ==
 
