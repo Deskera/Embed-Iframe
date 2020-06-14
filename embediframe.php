@@ -1,20 +1,21 @@
 <?php
 /*
 Plugin Name: Embed Iframe
-Plugin URI: http://blog.deskera.com/wordpress-plugin-embed-iframe
+Plugin URI: https://medium.com/deskera-engineering
 Description: Allows the insertion of code to display an external webpage within an iframe. The tag to insert the code is: <code>[iframe url width height]</code>
-Version: 1.0
+Version: 1.1
 Author: Deskera
-Author URI: http://deskera.com
+Author URI: https://www.deskera.com
 
-1.0   - Initial release
+1.0	- Initial release
+1.1	- PHP7 compatibility
 */
 
 include (dirname (__FILE__).'/plugin.php');
 
 class EmbedIframe extends EmbedIframe_Plugin
 {
-	function EmbedIframe ()
+	function __construct ()
 	{
 		$this->register_plugin ('embediframe', __FILE__);
 		

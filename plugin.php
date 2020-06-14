@@ -32,6 +32,7 @@
 // 0.1.20 - Change init function to prevent overloading
 // 0.1.21 - Make widget work for WP 2.1
 // 0.1.22 - Minor change to use it with Embed Iframe plugin
+// 0.1.23 - PHP7 compatability
 // ======================================================================================
 
 
@@ -459,7 +460,7 @@ if (!class_exists ('Widget'))
 {
 	class Widget
 	{
-		function Widget ($name, $max = 1, $id = '', $args = '')
+		function __construct ($name, $max = 1, $id = '', $args = '')
 		{
 			$this->name        = $name;
 			$this->id          = $id;
