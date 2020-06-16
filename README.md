@@ -39,8 +39,8 @@ You cannot embed a URL which carries **X-Frame-Options** header with the value *
 
 # Changelog
  
-= 1.0 =
+## 1.0
 * Initial release
 
-= 1.1 =
+## 1.1
 * PHP7 compatability
