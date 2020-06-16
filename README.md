@@ -5,6 +5,8 @@ Requires at least: 1.3
 Tested up to: 5.4.2
 Requires PHP: 5.3
 Stable tag: trunk
+License: GPLv3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 Allows the insertion of code to display an external webpage within an iframe.
 
@@ -44,3 +46,6 @@ You cannot embed a URL which carries **X-Frame-Options** header with the value *
 
 ## 1.1
 * PHP7 compatability
+
+## 1.2
+* Security related changes
