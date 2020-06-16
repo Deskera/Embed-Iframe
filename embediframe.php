@@ -3,17 +3,18 @@
 Plugin Name: Embed Iframe
 Plugin URI: https://medium.com/deskera-engineering
 Description: Allows the insertion of code to display an external webpage within an iframe. The tag to insert the code is: <code>[iframe url width height]</code>
-Version: 1.1
+Version: 1.2
 Author: Deskera
 Author URI: https://www.deskera.com
 
 1.0	- Initial release
 1.1	- PHP7 compatibility
+1.2 - User input sanitization
 */
 
 include (dirname (__FILE__).'/plugin.php');
 
-class EmbedIframe extends EmbedIframe_Plugin
+class EIPD_EmbedIframe extends EIPD_Plugin
 {
 	function __construct ()
 	{
@@ -34,20 +35,18 @@ class EmbedIframe extends EmbedIframe_Plugin
 		if ($tmp)
 		{
 			// Because the regex is such a nuisance
-			$url  = substr ($matches[1], 0, $tmp);
+			$url  = esc_url_raw (substr ($matches[1], 0, $tmp));
 			$rest = substr ($matches[1], strlen ($url));
-			
+
 			$width  = 400;
 			$height = 500;
-			
 
-				$parts = array_values (array_filter (explode (' ', $rest)));
-				$width = $parts[0];
-				
-				unset ($parts[0]);
-				$height = implode (' ', $parts);
+			$parts = array_values (array_filter (explode (' ', $rest)));
+			$width = intval (sanitize_text_field ($parts[0]));
+	
+			unset ($parts[0]);
+			$height = intval (sanitize_text_field (implode (' ', $parts)));
 
-			
 			return $this->capture ('iframe', array ('url' => $url, 'width' => $width, 'height' => $height));
 		}
 		
@@ -60,5 +59,5 @@ class EmbedIframe extends EmbedIframe_Plugin
 	}
 }
 
-$embediframe = new EmbedIframe;
+$embediframe = new EIPD_EmbedIframe;
 ?>
