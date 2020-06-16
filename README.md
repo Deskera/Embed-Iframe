@@ -1,4 +1,4 @@
-=== Embed Iframe ===
+# Embed Iframe
 Contributors: brajesh
 Tags: iframe, embed, page, post, plugin
 Requires at least: 1.3
@@ -8,11 +8,11 @@ Stable tag: trunk
 
 Allows the insertion of code to display an external webpage within an iframe.
 
-== Description ==
+# Description
 
 Embed Iframe is a plugin that will let you embed iframe - an HTML tag that allows a webpage to be displayed inline with the current page, in a WordPress post. Although an iframe can lead to a complicated website, it can be very effective when used appropriately.
 
-== Installation ==
+# Installation
 
 1. Download [EmbedIframe plugin](http://downloads.wordpress.org/plugin/embed-iframe.zip)
 1. Unzip
@@ -21,7 +21,7 @@ Embed Iframe is a plugin that will let you embed iframe - an HTML tag that allow
 
 You can find full details of installing a plugin on the [plugin installation page](https://wordpress.org/support/article/managing-plugins/)
 
-== Usage ==
+# Usage
 
 Use following tag to insert another page in post using iframe
 
@@ -31,13 +31,13 @@ e.g.
 
 `[iframe http://www.example.com 400 500]`
 
-== Frequently Asked Questions ==
+# Frequently Asked Questions
 
-= Is there any limitation? =
+## Is there any limitation?
 
 You cannot embed a URL which carries **X-Frame-Options** header with the value **DENY**.
 
-== Changelog ==
+# Changelog
  
 = 1.0 =
 * Initial release
