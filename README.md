@@ -1,12 +1,13 @@
 # Embed Iframe
-Contributors: brajesh
-Tags: iframe, embed, page, post, plugin
-Requires at least: 1.3
-Tested up to: 5.4.2
-Requires PHP: 5.3
-Stable tag: trunk
-License: GPLv3 or later
-License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+* Contributors: brajesh
+* Tags: iframe, embed, page, post, plugin
+* Requires at least: 1.3
+* Tested up to: 5.4.2
+* Requires PHP: 5.3
+* Stable tag: trunk
+* License: GPLv3 or later
+* License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 Allows the insertion of code to display an external webpage within an iframe.
 
